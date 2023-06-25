@@ -1,0 +1,518 @@
+/* Nama Kelompok
+    Kelas DDAP - B
+    Nama Kelompok Prakerla
+    Ilham Setyo Nugroho (195150400111037)
+    Wahyu Nur Arifin (195150407111007)
+    M Raihan Agust N (195150407111010)
+    Akhir nama kelompok */
+nav{
+    overflow: hidden;
+  }
+  body {
+    background-image: url('Hero/y-so-serious-white.png');
+  }
+  /* Background Navbar */
+  .bg-img {
+    background-image: url("hero/Fotoku.jpeg");
+    height: 100%;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .nav.navbar-nav.navbar-right li a{
+    color: black;
+    display: inline-block;
+  }
+  form{
+    position: absolute;
+  }
+  
+  /*Desktop*/
+  @media screen and (min-width: 100px) and (max-width: 480px) {
+    .bg-img {
+      display: block;
+    }
+  
+  }
+  
+  /*Mobile*/
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    .bg-img {
+      background-image: url("Hero/Fotoko.jpg");
+      height: 400px;
+    }
+    .nav.navbar-nav.navbar-right li{
+      color: black;
+      margin-top: -10px;
+      background-color: white;
+    }
+    #searchbar{
+      margin-top: 10%;
+    }
+  }
+  /* Search */
+  #search{
+      max-width: 75%;
+      max-height: 5%;
+      font-size: 3vw;
+      background-color: white;
+  }
+  
+  #searchbar{
+    top: 65%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    max-width: 75%;
+    max-height: 3%;
+    font-size: 3vw;
+    position: absolute;
+  }
+  
+  .btn.btn-default{
+    max-width: 60%;
+    max-height: 4%;
+    font-size: 3vw;
+    background-color: lightskyblue;
+  }
+  /* Popular */
+  .popular ul li{
+    display: inline-block;
+    margin-top: 420px;
+    margin-left: 100px;
+    margin-bottom: 5%;
+    margin-right: -75px; 
+    background-color: lightskyblue;
+    padding: 5px;
+    color: black;
+  }
+  .popular ul li a{
+    color: black;
+  }
+  .popular ul li:hover{
+    background-color: whitesmoke;
+    color: cadetblue;
+  }
+  /* Button */
+  .btndown.hidden-sm.hidden-xs ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 50px; 
+    background-color:lightskyblue;
+    color: black;
+  }
+  .btndown.hidden-sm.hidden-xs ul li a{
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: lightskyblue;
+    color: black ;
+    display: block;
+  }
+  .btndown.hidden-sm.hidden-xs ul li a:hover{
+    color: whitesmoke;
+  }
+  /* Akhir */
+  /*Sidebar mobile*/
+  .navbar.navbar-inverse.navbar.hidden-lg.hidden-md{
+    background-color: lightgray;
+    margin-top: -20px;
+    border: none;
+  }
+  .navbar.navbar-inverse.navbar.hidden-lg.hidden-md ul li{
+    list-style-type: none;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .navbar.navbar-inverse.navbar.hidden-lg.hidden-md ul li a{
+    color: black;
+    border: blueviolet;
+  }
+  .navbar.navbar-inverse.navbar.hidden-lg.hidden-md ul li a:hover{
+    color: white;
+  }
+  /* Akhir sidebar mobile */
+  
+  /* Navigation Scroll  */
+  .GOTO {
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  .GOTO a{
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+  }
+  .GOTO.hidden-sm.hidden-xs {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+  .GOTO.hidden-sm.hidden-xs a{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+  .btndown2.hidden-sm.hidden-xs {
+    margin-top: 20px;
+  }
+  .btndown2.hidden-sm.hidden-xs ul li{
+    margin-top: 20px;
+    display: inline-block;
+    margin-right: 40px;
+    text-align: center;
+    background-color: whitesmoke;
+  }
+  .btndown2.hidden-sm.hidden-xs ul li a{
+    margin-left: 50px;
+    margin-right: 40px;
+    text-shadow: 2px 2px 8px #FF0000;;
+  }
+  /* akhir navscroll */
+  
+  /* Sedang Populer */
+  .popul{
+    color: black;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 60px;
+    position: absolute;
+  }
+  
+  .popul a{
+    background-color: cornflowerblue;
+    font-size: 25px;
+    color: black;
+  }
+  .popul a:hover{
+    color: white;
+    background-color: crimson;
+    font-size: 26px;
+  
+  }
+  /* Image horizontal */
+    #myCarousel{
+      margin-top: 100px;
+  }
+    .carousel-inner img{
+    margin-top:40px;
+    margin-left: 15px;
+    max-width: 400px;
+  }
+  
+    .carousel-inner a{
+    color: white;
+    background-color: darkblue;
+  }
+  
+  /*Mobile Carousel*/
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    .carousel-caption h3{
+      font-size: 18px;
+    }
+    .row img{
+        max-height: 250px;
+        margin-left: -15px;
+        margin-right: 10px;
+    }
+  
+  }
+  /* Mahasiswa Berlangganan */
+  .Subscr{
+    margin-bottom: 20px;
+    color: black;
+    margin-top: 20px;
+    margin-left: 60px;
+  }
+  .Subscr a{
+    color: black;
+    background-color: cornflowerblue;
+    font-size: 25px;
+  
+  }
+  .Subscr a:hover{
+    color: white;
+    background-color: crimson;
+    font-size: 26px;
+  }
+  .berlangganan{
+    background-color: #7E75B4;
+    color: black;
+    font-size: 18px;
+    height: 750px;
+  }
+  .memimg img{
+    margin-top: 50px;
+    margin-left: 55%;
+    margin-bottom: 10px;
+    width: 35%;
+    position: absolute;
+  }
+  .capt{
+    height: 100%;
+    margin-left: 5%;
+    padding-top: 1%;
+    font-size: 20px;
+    position: relative;
+  }
+  .capt p {
+    color:white;
+    padding-right: 40%;
+    font-size: 20px;
+  }
+  .capt ul li {
+    color:white;
+    margin-right: 50%;
+    font-size: 20px;
+  }
+  .capt h5{
+    font-size: 20px;
+    color: white;
+  }
+  .capt h4{
+    background-color: lightskyblue;
+    margin-right: 500px;
+  
+  }
+  
+  
+  /*Mobile Member*/
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    .berlangganan{
+      background-color: #7E75B4;
+      color: black;
+      font-size: 18px;
+      height: 750px;
+    }
+    .memimg img{
+    background-color: cornflowerblue;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 4%;
+    margin-right: auto;
+    width: 300px;
+    }
+    .capt{
+      height: 100%;
+      margin-left: 5%;
+      padding-top: 60%;
+      font-size: 15px;
+      position: relative;
+    }
+    .capt p {
+      color:white;
+      padding-right: 0%;
+      font-size: 15px;
+    }
+    .capt ul li {
+      color:white;
+      margin-right: 0%;
+      font-size: 15px;
+    }
+    .capt h5{
+      font-size: 15px;
+      color: white;
+    }
+    .capt .judul{
+      background-color: lightskyblue;
+      margin-right: 30px;
+    
+    }
+  }
+  /* Keunggulan */
+  .Keunggulan{
+    margin-bottom: 20px;
+    margin-right: 50%;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-top: 20px;
+  }
+  .Keunggulan a{
+    background-color: #D98F09;
+    color: black;
+    font-size: 25px;
+  }
+  .Keunggulan a:hover{
+    color: white;
+    background-color: crimson;
+    font-size: 26px;
+  }
+  .unggul{
+    background-color: #D98F09;
+    color: black;
+    font-size: 18px;
+    height: 550px;
+  }
+  .unggulimg img{
+    margin-top: 60px;
+    margin-left: 55%;
+    margin-bottom: 10px;
+    width: 35%;
+    position: absolute;
+  }
+  .captunggul{
+    height: 100%;
+    margin-left: 5%;
+    padding-top: 1%;
+    font-size: 20px;
+    position: relative;
+  }
+  .captunggul p {
+    color:black;
+    padding-right: 20px;
+    margin-right: 50%;
+    font-size: 20px;
+  }
+  .captunggul ul li {
+    color:black;
+    margin-right: 50%;
+    font-size: 20px;
+  }
+  .captunggul h4{
+    font-size: 20px;
+    color: black;
+    padding-right: 20px;
+    margin-right: 50%;
+  }
+  .captunggul .judul{
+    margin-right: 40%;
+    background-color: lightblue;
+  }
+  /*Mobile Keunggulan*/
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    .unggul{
+       color: black;
+      font-size: 20px;
+      height: 750px;
+    }
+    .unggulimg img{
+      margin-top: 10px;
+      margin-left: 40px;
+      margin-bottom: 4%;
+      margin-right: auto;
+      width: 300px;
+      }
+    .captunggul{
+      height: 100%;
+      margin-left: 5%;
+      padding-top: 60%;
+      font-size: 20px;
+      position: relative;
+    }
+    .captunggul p {
+      font-size: 15px;
+      margin-right: 20%;
+    }
+    .captunggul ul li {
+      margin-right: 0%;
+      font-size: 15px;
+    }
+    .captunggul h4{
+      font-size: 15px;
+    }
+  }
+  /* Perusahaan atau instansi */
+  .perusahaan{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-top: 20px;
+  }
+  .perusahaan a{
+    background-color: cornflowerblue;
+    color: black;
+    font-size: 25px;
+  }
+  .perusahaan a:hover{
+    color: white;
+    background-color: crimson;
+    font-size: 26px;
+  }
+  /* multi carousel */
+  #Carousel{
+    margin-top: 10px;
+  }
+  .row2 img{
+      max-height: 300px;
+  }
+  .row2 a{
+      margin-left: 40px;
+  }
+  /*Mobile Carousel*/
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    .row2 img{
+        max-width: 250px;
+        margin-left: -15px;
+        margin-right: 10px;
+    }
+  
+  }
+  
+  /* Prakerla Guide */
+  .guide{
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .guide a{
+    background-color : #4557FF;
+    margin-right : 50%;
+    font-size: 25px;
+    color: black;
+    margin-left: 60px;
+  }
+  .guide a:hover{
+    font-size: 26px;
+    background-color: crimson;
+    color: white;
+  }
+  .container{
+    margin-top: 20px;
+  }
+  .caption2 a{
+    background-color:  #ADBFFF;
+    color : black;
+    font-size: 18px;
+    margin-left: 5px;
+  }
+
+  /* Kategori and footer */
+  .kategori{
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .kategori .row a:hover{
+    color: blue;
+  }
+  footer {
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #FFA500;
+    color: black;
+    padding-top: 10px;
+  }
+  
+  footer p{
+    color: black;
+    font-size: 1em;
+  }
+  
+  .row ul li{
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .row h3{
+    padding-top: 0;
+  }
+  
+  .ae ul li{
+    color: #FFA500;
+    display: inline;
+    text-decoration: none;
+  }
+  
+  .row ul li a{
+    color : black;
+  }
